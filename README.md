@@ -5,5 +5,5 @@ To use this CSS file with mailman:
 
 1. Open the appropriate template
 2. Paste this into the HEAD of the page:
-    <link rel="stylesheet" type="text/css" href="http://cdn.broadpool.com/mailman.css">
+    &lt;link rel="stylesheet" type="text/css" href="http://cdn.broadpool.com/mailman.css">
 3. Save it
