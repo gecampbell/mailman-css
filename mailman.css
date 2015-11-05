@@ -1,5 +1,69 @@
 body {
 margin-left: auto;
 margin-right: auto;
-width: 60em;
+width: 48em;
+font-size: 14pt;
+}
+
+/* top title */
+td[bgcolor="#99CCFF"] {
+background: white;
+color: navy;
+font-family: 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
+}
+td[bgcolor="#99CCFF"] font[color="#000000"] {
+font-size: 24pt;
+color: navy;
+}
+
+/* subheading */
+td[bgcolor="#FFF0D0"] {
+background: white;
+color: black;
+font-family: 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
+border-bottom: 1px silver solid;
+vertical-align: bottom;
+}
+td[bgcolor="#FFF0D0"] font[color="#000000"] {
+color: gray;
+font-size: 18pt;
+}
+td[bgcolor="#FFF0D0"] form {
+margin: 0;
+padding: 0;
+}
+
+/* list-info */
+.list-info * {
+line-height: 150%;
+}
+
+/* sign-up form */
+td[BGCOLOR="#dddddd"] {
+background: white;
+text-align: right;
+font-family: 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
+font-size: smaller;
+}
+input {
+font-weight: bold;
+}
+input[type="SUBMIT"] {
+background: gray;
+color: white;
+}
+
+/* bottom */
+address {
+font-size: smaller;
+color: gray;
+}
+
+/* misc */
+hr {
+border: 0; 
+height: 3px; 
+background: black; 
+background-image: linear-gradient(to right, #eee, #333, #eee);
+clear: both:
 }
