@@ -18,7 +18,7 @@ color: navy;
 
 /* subheading */
 td[bgcolor="#FFF0D0"] {
-margin-top: 2em;
+padding-top: 2em;
 background: white;
 color: black;
 font-family: 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
@@ -48,7 +48,7 @@ font-size: smaller;
 }
 input {
 font-weight: bold;
-border: 2px black solid;
+border: 1px gray solid;
 }
 input[type="SUBMIT"] {
 background: gray;
